@@ -97,8 +97,8 @@ function App() {
     <p>Software Engineering, Data structures and algorithms, Object-Oriented Programming, Test driven development</p>
     <meta name="keywords" content= "Software Engineering, Data structures and algorithms, Object-Oriented Programming, Test driven development"></meta>
 
-    <p>Software Design Patterns, Networking, Software Security, Artificial Intelligience, Game Engine Programming, Game Design/Development</p>
-    <meta name="keywords" content= "Software Design Patterns, Networking, Software Security, Artificial Intelligience, Game Engine Programming, Game Design/Development"></meta>
+    <p>Software Design Patterns, Networking, Artificial Intelligience, Game Engine Programming, Game Design/Development</p>
+    <meta name="keywords" content= "Software Design Patterns, Networking, Artificial Intelligience, Game Engine Programming, Game Design/Development"></meta>
 
     <h3>About me</h3>
     <p className="aboutMeContent">Hello and welcome to my portfolio website. I like building stuff that are cool and fun. My work is geared towards projects that help out too.</p>
