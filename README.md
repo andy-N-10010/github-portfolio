@@ -6,9 +6,9 @@ The following information is about my personal portfolio website!
 ## Contents
 
 * [Requirements](#Requirements)
-* [ Challenges and Lessons Learned](# Challenges and Lessons Learned)
-* [How this was built] (#How this was built)
-* [Contact] (#Contact)
+* [Challenges and Lessons Learned](#Challenges-and-Lessons-Learned)
+* [How this was built](#How-this-was-built)
+* [Contact info](#Contact-info)
 
 ## Requirements
 - You just need a web browser
