@@ -6,7 +6,7 @@ The following information is about my personal portfolio website!
 ## Contents
 
 * [Requirements](#Requirements)
-* [Challenges and Lessons Learned] (#Challenges and Lessons Learned)
+* [ Challenges and Lessons Learned](# Challenges and Lessons Learned)
 * [How this was built] (#How this was built)
 * [Contact] (#Contact)
 
@@ -35,7 +35,7 @@ I was stuck on building the data structure to plug into my carousel component fo
 ## How this was built
 This was made using React, Typescript, Node.js, and EsLint.
 
-## Contact
+## Contact info
 
 You can find me on these socials:
 
