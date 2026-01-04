@@ -1,5 +1,5 @@
 # github-portfolio
-This is my portfolio website. This is where I host my must-see projects that I did as well as my new projects. You can check it out here: https://andy-n-10010.github.io/github-portfolio/. These projects were my favorites. They each demonstrated my care and attention to detail that I put into. I have learned so much over the years, and I'm happy to express it through these projects. I will continue to upload projects and grow my understanding in software as it's applied to problems and opportunities within our society.
+This is my portfolio website. This is where I host my must-see projects that I did as well as my new projects. These projects were my favorites. They each demonstrated my care and attention to detail that I put into. I have learned so much over the years, and I'm happy to express it through these projects. This repo showcases my knowledge that I have learned from building the site to hold my other projects. Thank you for visiting and I hope you check out my website to see my additional projects that I have been working on too. You can check it out here: https://andy-n-10010.github.io/github-portfolio/.
 
 The following information is about my personal portfolio website!
 
@@ -44,5 +44,7 @@ https://www.linkedin.com/in/andy-nguyen-97658ag/
 https://github.com/andy-N-10010
 
 https://x.com/andy45759650/
+
+https://andy-n-10010.github.io/github-portfolio/
 
 andynguyen373@gmail.com
