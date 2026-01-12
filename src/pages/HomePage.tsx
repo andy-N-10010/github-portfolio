@@ -8,15 +8,15 @@ import githubLink from '../assets/github_account_e.png'
 import twitterLink from '../assets/twitter_account_f.png'
 import type {picture} from '../components/picture.tsx'
 import type {video} from '../components/video.tsx'
-import Carousel from '../carousel.tsx'
+import Carousel from '../components/carousel.tsx'
 import '../App.css'
 
 
 /**
- * The root component. This assembles all of the other components.
+ * The HomePage component. This holds the home page.
  * This component puts in the structure and content of the site.
  * params: Nothing
- * returns fully constructured component for the site to the html.
+ * returns fully constructured component for the app.tsx to assemble with other components.
  */
 
 

@@ -1,5 +1,5 @@
 import   { useState } from 'react';
-import type { mediaItem } from './pages/HomePage';
+import type { mediaItem } from '../pages/HomePage';
 import './carousel.css'
 
 

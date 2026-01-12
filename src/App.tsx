@@ -12,7 +12,6 @@ import './App.css'
  */
 
 
-//This variable contains the union between the interfaces for picture or video and kept as the mediaItem.
 
 
 
