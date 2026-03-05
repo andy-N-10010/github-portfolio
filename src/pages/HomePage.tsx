@@ -36,19 +36,18 @@ function Home() {
 
   mediaListForEM.push({
     type:"picture",
-    src: landingPageEF,
-    alt: "landingpage",
-    href: "https://manh9amazing.github.io/finalSpring/html/register.html"
-
-  });
-
-  mediaListForEM.push({
-    type:"picture",
     src: budgetingStatsEF,
     alt: "budgeting stats",
     href: "https://manh9amazing.github.io/finalSpring/html/register.html"
   })
 
+  mediaListForEM.push({
+    type:"picture",
+    src: landingPageEF,
+    alt: "landingpage",
+    href: "https://manh9amazing.github.io/finalSpring/html/register.html"
+
+  });
 
   contactItemsList.push({
     type:"picture",
@@ -145,7 +144,7 @@ function Home() {
     <div className="containerForProjectBox">
 
 
-    <h2 className="projectNameEM">Effcient Money</h2>
+    <h2 className="projectNameEM">Efficient Money</h2>
 
 
     <Carousel items = {mediaListForEM}></Carousel>
