@@ -1,7 +1,11 @@
 import velocityGif from '../assets/velocitySkating.gif'
 import RecipeForRuin from '../assets/RecipeForRuin.png'
+import gameplayRecipeForRuin from '../assets/recipe for ruin gameplay.gif'
 import landingPageEF from '../assets/landingpagebetter.png'
 import budgetingStatsEF from '../assets/budgeting_page_2.png'
+import gameplayWonderLux from '../assets/gameplay 1.png'
+import titleScreenWonderLux from '../assets/title screen.png'
+import wonderLuxGif from "../assets/gameplayWonderLux.gif"
 import headshot from '../assets/headshot.jpg'
 import linkedInLink from '../assets/linkedIn_account_f.png'
 import githubLink from '../assets/github_account_e.png'
@@ -28,11 +32,51 @@ export type mediaItem = picture | video;
 
 function Home() {
 
-
   const mediaListForEM: mediaItem[] = [];
+
+  const wonderLux: mediaItem[] = [];
+
+  const recipeForRuinList: mediaItem[] = [];
 
   const contactItemsList: mediaItem[] = [];
 
+
+recipeForRuinList.push({
+  type:"picture",
+  src: gameplayRecipeForRuin,
+  alt: "gameplay showing recipeForRuin",
+  href: "https://totally-legit-game-studio.com/index.html"
+})
+
+recipeForRuinList.push({
+  type:"picture",
+  src: RecipeForRuin,
+  alt: "title card for recipe for ruin",
+  href: "https://totally-legit-game-studio.com/index.html"
+})
+
+
+wonderLux.push({
+  type:"picture",
+  src: wonderLuxGif,
+  alt: "gameplay showing wonderlux",
+  href: "https://jessfielo.itch.io/wanderlox"
+})
+
+
+wonderLux.push({
+  type: "picture",
+  src: titleScreenWonderLux,
+  alt: "title screen for wonderLux",
+  href: "https://jessfielo.itch.io/wanderlox"
+})
+
+wonderLux.push({
+  type:"picture",
+  src: gameplayWonderLux,
+  alt: "gameplay screenshot wonderlux",
+  href: "https://jessfielo.itch.io/wanderlox"
+})
 
   mediaListForEM.push({
     type:"picture",
@@ -100,11 +144,14 @@ function Home() {
     <meta name="keywords" content= "Software Design Patterns, Networking, Artificial Intelligience, Game Engine Programming, Game Design/Development"></meta>
 
     <h3>About me</h3>
-    <p className="aboutMeContent">Hello and welcome to my portfolio website. I like building stuff that are cool and fun. My work is geared towards projects that help out too.</p>
-    <meta name="description" content= "Hello and welcome to my portfolio website. I like building stuff that are cool and fun. My work is geared towards projects that help out too."></meta>
+    <p className="aboutMeContent">Hello and welcome to my portfolio website. I like building stuff that is cool and fun. My work is geared towards projects that is altruistic too.</p>
+    <meta name="description" content= "Hello and welcome to my portfolio website. I like building stuff that is cool and fun. My work is geared towards projects that is altruistic too."></meta>
 
 
 
+
+    {/* This section might not be needed if I already have links on the bottom of the page
+    
     <h2 className="projectsListTitle">You can connect to me through my other social media contacts:</h2>
     <h3><a href="https://www.linkedin.com/in/andy-nguyen-97658ag/" target="_blank">https://www.linkedin.com/in/andy-nguyen-97658ag/</a></h3>
 
@@ -112,9 +159,18 @@ function Home() {
 
     <h3><a href="https://x.com/andy45759650/" target="_blank">https://x.com/andy45759650/</a></h3>
 
-    <h3>andynguyen373@gmail.com</h3>
+    <h3>andynguyen373@gmail.com</h3> */}
     
     <h2 className="projectsListTitle">Projects</h2>
+
+    </div>
+
+    <div className="containerForProjectBox">
+    <h2 className="projectNameVelocity">WonderLux</h2>
+
+    <Carousel items = {wonderLux}></Carousel>
+
+    <p className="projectContent">A team of 3 total people including me made a game in 1 week. It was during Brackeys Game Jam 2026.1. It's called WonderLux. It's about a fish that tries to escape the world so it can return to the sea. The challenge is in it's navigation that simulates real life fish movement out of water. If you want to try this site for yourself, find it <a href="https://jessfielo.itch.io/wanderlox" target="_blank">here</a>. </p>
 
     </div>
     
@@ -132,9 +188,8 @@ function Home() {
     <div className="containerForProjectBox">
     <h2 className="projectNameRFR">Recipe For Ruin</h2>
 
-    <a href="https://totally-legit-game-studio.com/index.html" target="_blank">
-    <img src={RecipeForRuin} className="recipe for ruin logo" alt="Recipe for ruin logo"></img>
-    </a>
+    <Carousel items = {recipeForRuinList}></Carousel>
+
 
     <p className="projectContent">This is a Top Down Action-Adventure rougelike created in Unity. I worked with 18 others as the programmer. I made the mini map game mechanic and helped debug. I was also the main playtester for the game. This meant that I made unit tests and stress tested the game so it could be safe to play without breaking unexpectedly. If you want to give the game a try, you can find it <a href="https://totally-legit-game-studio.com/index.html" target="_blank">here</a>. </p>
 
